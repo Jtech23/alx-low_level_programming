@@ -2,7 +2,7 @@
 /**
  * reset_to_98 - updates the value of a pointer variable
  *
- * n: pointer pointing to another variable
+ * 'n': pointer pointing to another variable
  * Return: Always 0
  */
 
