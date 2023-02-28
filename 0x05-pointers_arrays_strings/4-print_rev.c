@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * print_rev: prints in reverse
- * @s: character to be printed in reverse
+ * print_rev: print in reverse
+ *
+ * @str: character to be printed in reverse
  */
 
 void print_rev(char *str)
@@ -11,8 +12,8 @@ void print_rev(char *str)
 	int i;
 
 	len = strlen(str);
-	for (i=len - 1; i >= 0; i--)
+	for (i = len - 1; i >= 0; i--)
 	{
-		putchar(str[i]);
+		puts(str[i]);
 	}
 }
