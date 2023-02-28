@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *A functio to print in reverse
- *
- * print_rev: print in reverse
- *
+ * print_rev -  print in reverse
  * @str: character to be printed in reverse
+ * return: 0
  */
 
 void print_rev(char *str)
