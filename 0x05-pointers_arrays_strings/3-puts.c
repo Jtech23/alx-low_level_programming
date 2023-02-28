@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * A c program
- * _puts - function to print the str followed by a new line to the stdout
- * @str: string
+ * _puts - prints a string, followed  by a new line, to stdout
+ * @str: string to print
  */
 
 void _puts(char *str)
