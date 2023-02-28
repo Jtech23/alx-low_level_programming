@@ -19,6 +19,6 @@ void print_rev(char *str)
 	{
 		j = str[i];
 		putchar(j);
-		putchar(" ")
+		putchar(' ');
 	}
 }
