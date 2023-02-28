@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * swap_int(int *a, int *b) - swaps the value of two pointer variable
+ * swap_int - swaps the value of two pointer variable
  *
  * @a: first pointer variable
  * @b: second pointer variable
