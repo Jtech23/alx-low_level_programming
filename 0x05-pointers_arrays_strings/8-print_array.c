@@ -5,7 +5,7 @@
  * @a: int to check
  * @n: int ot check
  */
-void print_array(int *a, int n )
+void print_array(int *a, int n)
 {
 	int x;
 
