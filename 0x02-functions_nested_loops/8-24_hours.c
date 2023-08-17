@@ -1,10 +1,6 @@
 #include "main.h"
 /**
  * jack_bauer - Prints the time daily
- * @a: Digit to print
- * @b: Digit to print
- * @c: Digit to print
- * @d: Digits to print
  * Retunr: Always 0
  */
 
@@ -20,6 +16,8 @@ void jack_bauer(void)
 			{
 				for (d = 0; d <= 9; d++)
 				{
+					if (a >= 2 && b >= 4)
+						break;
 					_putchar(a + 48);
 					_putchar(b + 48);
 					_putchar(':');
