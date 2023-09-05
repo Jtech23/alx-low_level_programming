@@ -1,14 +1,18 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * @argc: argument count
+ * @argc: Argument coubnt
  * @argv: Argument variable
  * Return: Always 0
  */
 
 int main(int argc, char *argv[])
 {
-	printf(argv[0]);
-	printf("\n");
-	return(0);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+	return (0);
 }
