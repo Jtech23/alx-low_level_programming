@@ -3,7 +3,7 @@
  * _pow_recursion - returns the power of x to y
  * @x: number to be raise
  * @y: power of x
- * return: returns the power of x to y
+ * Return: returns the power of x to y
  */
 
 int _pow_recursion(int x, int y)
