@@ -2,7 +2,7 @@
 /**
  * _strlen_recursion - Prints string length
  * @s: string to prints its length
- * return: returns the value of a
+ * Return: returns the value of a
  */
 
 int _strlen_recursion(char *s)
@@ -12,7 +12,7 @@ int _strlen_recursion(char *s)
 	if (*s != '\0')
 	{
 		a++;
-		a +=_strlen_recursion(s + 1);
+		a += _strlen_recursion(s + 1);
 	}
 	return (a);
 }
