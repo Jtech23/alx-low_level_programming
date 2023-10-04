@@ -3,6 +3,7 @@
 /**
  * main - entry point
  * @argc: argument count
+ * @argv: argument variable
  * Return: always 0
  */
 
